@@ -1,0 +1,6 @@
+To complete template:
+[ ] Update debugging paths for use symlink
+[ ] Convert to cmake
+[ ] Add FreeRTOS
+
+

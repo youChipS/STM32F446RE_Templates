@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "STM32 F4",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                    "_DEBUG",
+                    "UNICODE",
+                    "_UNICODE",
+                    "-DUSE_HAL_DRIVER",
+                    "-DSTM32F446xx"
+            ],
+            "intelliSenseMode": "gcc-arm",
+            "compilerPath": "${env:ARM_GCC}/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                            "-mcpu=cortex-m4",
+                            "mthumb"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
