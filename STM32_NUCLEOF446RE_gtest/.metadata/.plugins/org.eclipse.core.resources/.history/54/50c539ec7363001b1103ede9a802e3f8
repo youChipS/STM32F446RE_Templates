@@ -1,0 +1,23 @@
+/*
+ * gtest_c.h
+ *
+ *  Created on: Jan 30, 2021
+ *      Author: chips
+ */
+
+#ifndef TEST_GTEST_C_H_
+#define TEST_GTEST_C_H_
+
+#include “gtest/gtest.h”
+
+#define C_TEST(TestCase, Test) \
+extern “C” \
+{ \
+void TestCase##_##Test(void); \
+} \
+TEST(TestCase, Test) \
+{ \
+TestCase##_##Test(); \
+}
+
+#endif /* TEST_GTEST_C_H_ */

@@ -1,0 +1,40 @@
+/******************************************************************************/
+/*!
+\file
+Test suite for Sample
+
+\copyright
+Copyright (C) 2014 DISTek Integration, Inc. All Rights Reserved.
+
+\author
+Mike Weno
+*/
+/******************************************************************************/
+
+//#include "SampleInclude.h"
+#include "myMath.h"
+#include "gtest_helper.h"
+
+unsigned int MultiplyInvokeCount = 0;
+unsigned int AdditionInvokeCount = 0;
+
+/******************************************************************************/
+/* Google Test C Helpers */
+/******************************************************************************/
+void Sample_Factorial(void)
+{
+	MultiplyInvokeCount = 0;
+
+	ExpectEqual(0, Factorial(-1));
+	ExpectEqual(0, MultiplyInvokeCount);
+
+	ExpectEqual(0, Factorial(0));
+	ExpectEqual(0, MultiplyInvokeCount);
+
+	ExpectEqual(1, Factorial(1));
+	ExpectEqual(0, MultiplyInvokeCount);
+
+	ExpectEqual(2, Factorial(2));
+	ExpectEqual(1, MultiplyInvokeCount);
+}
+

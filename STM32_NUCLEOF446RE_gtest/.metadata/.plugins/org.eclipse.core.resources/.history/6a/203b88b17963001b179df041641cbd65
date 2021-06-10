@@ -1,0 +1,21 @@
+/******************************************************************************/
+/*!
+\file
+Test suite for Sample
+
+\copyright
+Copyright (C) 2014 DISTek Integration, Inc. All Rights Reserved.
+
+\author
+Mike Weno
+*/
+/******************************************************************************/
+
+#include "SampleInclude.h"
+#include "Sample.h"
+#include "gtest_helper.h"
+
+unsigned int MultiplyInvokeCount = 0;
+unsigned int AdditionInvokeCount = 0;
+
+/******************************************************************************/

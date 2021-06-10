@@ -1,0 +1,13 @@
+#include "add.h"
+#include "gtest/gtest.h"
+#include "FooTest.cpp"
+
+
+int main(int argc, char **argv)
+{
+  ::testing::InitGoogleTest(&argc, argv);
+
+  int sum = add(1,1);
+
+  return RUN_ALL_TESTS();
+}

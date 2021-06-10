@@ -1,0 +1,9 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:GoogleTest,org.eclipse.launchbar.core.descriptorType.default\:Test Debug,org.eclipse.launchbar.core.descriptorType.default\:StaterSTM32Project Debug,org.eclipse.launchbar.core.descriptorType.default\:mySTM32Project Debug,org.eclipse.launchbar.core.descriptorType.default\:GoogleTest_Hello_Static
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:GoogleTest/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:GoogleTest/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:GoogleTest_Hello_Static/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:mySTM32Project\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:mySTM32Project\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

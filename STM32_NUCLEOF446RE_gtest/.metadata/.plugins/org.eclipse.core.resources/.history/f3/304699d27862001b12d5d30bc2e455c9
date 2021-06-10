@@ -1,0 +1,11 @@
+#include <add.h>
+
+
+int main()
+{
+	unsigned int c = 0;
+
+	c = add(a, b);
+
+	return 0;
+}

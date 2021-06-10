@@ -1,0 +1,6 @@
+02:21:04 **** Incremental Build of configuration Debug for project mySTM32StaticCppLib ****
+make -j12 all 
+make: Nothing to be done for 'all'.
+
+02:21:04 Build Finished (took 69ms)
+

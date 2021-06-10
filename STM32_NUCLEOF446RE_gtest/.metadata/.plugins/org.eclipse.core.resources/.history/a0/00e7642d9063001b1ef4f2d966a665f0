@@ -1,0 +1,16 @@
+
+#include "../UnitTest/gtest_c.h"
+
+C_TEST(myMath, add);
+
+/******************************************************************************/
+/*
+Copyright (C) 2014 DISTek Integration, Inc. All Rights Reserved.
+
+Developed by:
+DISTek(R) Integration, Inc.
+6612 Chancellor Drive Suite 600
+Cedar Falls, IA 50613
+Tel: 319-859-3600
+*/
+/******************************************************************************/

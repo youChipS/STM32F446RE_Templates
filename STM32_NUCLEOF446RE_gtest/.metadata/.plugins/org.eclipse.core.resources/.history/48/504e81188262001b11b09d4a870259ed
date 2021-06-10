@@ -1,0 +1,18 @@
+/*
+ * FooTest.cpp
+ *
+ *  Created on: Jan 29, 2021
+ *      Author: chips
+ */
+
+#include "FooTest.h"
+
+FooTest::FooTest() {
+	// TODO Auto-generated constructor stub
+
+}
+
+FooTest::~FooTest() {
+	// TODO Auto-generated destructor stub
+}
+

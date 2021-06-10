@@ -1,0 +1,13 @@
+#include <add.h>
+
+
+int main()
+{
+	unsigned int a = 5;
+	unsigned int b = 4;
+	unsigned int c = 0;
+
+	c = a + b;
+
+	return 0;
+}

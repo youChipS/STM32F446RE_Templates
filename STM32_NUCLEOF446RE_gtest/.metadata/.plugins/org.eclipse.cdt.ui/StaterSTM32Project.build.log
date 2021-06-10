@@ -1,0 +1,6 @@
+17:31:10 **** Incremental Build of configuration Debug for project StaterSTM32Project ****
+make -j12 all 
+make: Nothing to be done for 'all'.
+
+17:31:10 Build Finished (took 123ms)
+

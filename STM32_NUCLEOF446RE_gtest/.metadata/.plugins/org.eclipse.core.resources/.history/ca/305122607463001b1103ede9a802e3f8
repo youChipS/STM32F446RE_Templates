@@ -1,0 +1,16 @@
+/*
+ * gtest_helper.h
+ *
+ *  Created on: Jan 30, 2021
+ *      Author: chips
+ */
+
+#ifndef TEST_GTEST_HELPER_H_
+#define TEST_GTEST_HELPER_H_
+
+#define GTEST_HELPER_H
+
+extern void ExpectTrue(unsigned int expected);
+extern void ExpectEqual(unsigned int expected, unsigned int actual);
+
+#endif /* TEST_GTEST_HELPER_H_ */

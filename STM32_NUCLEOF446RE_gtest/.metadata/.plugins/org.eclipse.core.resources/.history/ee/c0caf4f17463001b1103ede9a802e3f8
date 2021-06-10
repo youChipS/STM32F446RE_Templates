@@ -1,0 +1,17 @@
+/*
+ * FooTest.h
+ *
+ *  Created on: Jan 29, 2021
+ *      Author: chips
+ */
+
+#ifndef TEST_FOOTEST_H_
+#define TEST_FOOTEST_H_
+
+class FooTest {
+public:
+	FooTest();
+	virtual ~FooTest();
+};
+
+#endif /* TEST_FOOTEST_H_ */

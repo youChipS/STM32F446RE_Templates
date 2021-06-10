@@ -1,0 +1,38 @@
+/*
+ * myMath_include.h
+ *
+ *  Created on: Jan 30, 2021
+ *      Author: chips
+ */
+
+#ifndef UNITTEST_MYMATH_INCLUDE_H_
+#define UNITTEST_MYMATH_INCLUDE_H_
+
+/******************************************************************************/
+/*!
+\file
+Sample externals.
+
+\copyright
+Copyright (C) 2014 DISTek Integration, Inc. All Rights Reserved.
+
+\author
+Mike Weno
+*/
+/******************************************************************************/
+
+extern int multiply(int x, int y);
+extern int addition(int x, int y);
+
+/******************************************************************************/
+/*
+Copyright (C) 2014 DISTek Integration, Inc. All Rights Reserved.
+
+Developed by:
+DISTek(R) Integration, Inc.
+6612 Chancellor Drive Suite 600
+Cedar Falls, IA 50613
+Tel: 319-859-3600
+*/
+
+#endif /* UNITTEST_MYMATH_INCLUDE_H_ */

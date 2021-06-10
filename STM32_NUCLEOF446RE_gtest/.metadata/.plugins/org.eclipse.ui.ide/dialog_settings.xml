@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/mnt/6C62DEEA62DEB852/Playground/gtest_STM32_NUCLEO/mySTM32Project_gtest"/>
+		<item value="/mnt/6C62DEEA62DEB852/Playground/STM32_Base_Project"/>
+	</list>
+</section>

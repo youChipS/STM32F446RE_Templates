@@ -1,0 +1,14 @@
+14:42:26 **** Build of configuration Debug for project gtest_test ****
+make all 
+Building file: ../googletest-master/googletest/test/googletest-break-on-failure-unittest_.cc
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"googletest-master/googletest/test/googletest-break-on-failure-unittest_.d" -MT"googletest-master/googletest/test/googletest-break-on-failure-unittest_.o" -o "googletest-master/googletest/test/googletest-break-on-failure-unittest_.o" "../googletest-master/googletest/test/googletest-break-on-failure-unittest_.cc"
+../googletest-master/googletest/test/googletest-break-on-failure-unittest_.cc:41:10: fatal error: gtest/gtest.h: No such file or directory
+googletest-master/googletest/test/subdir.mk:168: recipe for target 'googletest-master/googletest/test/googletest-break-on-failure-unittest_.o' failed
+ #include "gtest/gtest.h"
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [googletest-master/googletest/test/googletest-break-on-failure-unittest_.o] Error 1
+
+14:42:26 Build Finished (took 117ms)
+

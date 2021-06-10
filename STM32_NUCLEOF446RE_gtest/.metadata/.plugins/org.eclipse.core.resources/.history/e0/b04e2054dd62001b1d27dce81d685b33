@@ -1,0 +1,13 @@
+/*
+ * hello.h
+ *
+ *  Created on: Jan 30, 2021
+ *      Author: chips
+ */
+
+#ifndef HELLO_H_
+#define HELLO_H_
+
+int add(int x, int y);
+
+#endif /* HELLO_H_ */

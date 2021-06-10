@@ -1,0 +1,17 @@
+21:03:14 **** Incremental Build of configuration Debug for project mySTM32Project ****
+make -j12 all 
+Building target: mySTM32Project.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=softfp -mfpu=fpv4-sp-d16 -L"/mnt/6C62DEEA62DEB852/Playground/gtest_STM32_NUCLEO/mySTM32StaticLib/Debug" -T"/mnt/6C62DEEA62DEB852/Playground/gtest_STM32_NUCLEO/mySTM32Project/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -o "mySTM32Project.elf" @"objects.list"  -lmySTM32StaticLib -lm
+Finished building target: mySTM32Project.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "mySTM32Project.elf" "mySTM32Project.bin"
+arm-none-eabi-size "mySTM32Project.elf"
+   text	   data	    bss	    dec	    hex	filename
+   1444	   1080	   1092	   3616	    e20	mySTM32Project.elf
+ 
+
+21:03:14 Build Finished (took 216ms)
+
